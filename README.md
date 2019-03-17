@@ -21,12 +21,11 @@ python train.py --cutout True --auto-augment True
 
 ## Results
 ### CIFAR-10
-| Model                                               |  Error rate (%)   |   Loss   |
-|:----------------------------------------------------|:-----------------:|:--------:|
-|WideResNet28-10 baseline                             |                   |          |
-|WideResNet28-10 +Cutout, AutoAugment                 |               2.91|    0.0994|
-|WideResNet28-10 baseline (original paper)            |               3.87|         -|
-|WideResNet28-10 +Cutout, AutoAugment (original paper)|               2.68|         -|
+| Model                                               | Error rate |   Loss   | Error rate (paper) |
+|:----------------------------------------------------|:----------:|:--------:|:------------------:|
+|WideResNet28-10 baseline                             |        3.82|    0.1576|                3.87|
+|WideResNet28-10 +Cutout                              |        3.40|    0.1280|                3.08|
+|WideResNet28-10 +Cutout, AutoAugment                 |    **2.91**|**0.0994**|            **2.68**|
 
 Learning curves of loss and accuracy.
 
