@@ -22,7 +22,7 @@ class AutoAugment(object):
             ['Equalize', 0.3, 7, 'AutoContrast', 0.4, 8],
             ['TranslateY', 0.4, 3, 'Sharpness', 0.2, 6],
             ['Brightness', 0.9, 6, 'Color', 0.2, 8],
-            ['Solarize', 0.5, 2, 'Invert', 0, 0.3],
+            ['Solarize', 0.5, 2, 'Invert', 0.0, 3],
             ['Equalize', 0.2, 0, 'AutoContrast', 0.6, 0],
             ['Equalize', 0.2, 8, 'Equalize', 0.6, 4],
             ['Color', 0.9, 9, 'Equalize', 0.6, 6],
